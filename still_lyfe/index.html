@@ -1,0 +1,31 @@
+---
+layout: default
+title: "STILL LYFE"
+---
+<div class="header">
+  <div class="logo">
+    <img title="STILL LYFE" alt="" src="images/STILL_LYFE_66-3.gif">
+  </div>
+</div>
+
+<div class="home">
+
+  <ul class="post-list">
+
+    {% for post in site.categories.still_lyfe %}
+      <li>
+        {% if post.img %}
+          <ul class="gallery {{post.categories}}">
+          {% for img in post.img %}
+            <li>
+                <img src="{{site.baseurl}}/still_lyfe/images/{{img.src}}"/>
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+    
+  </ul>
+
+</div>

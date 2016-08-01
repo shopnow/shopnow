@@ -1,0 +1,13 @@
+- id: gallery1
+  description: This is the first gallery
+  imagefolder: /images
+  images:
+  - name: IMG_5495.jpg
+  - name: IMG_5646.jpg
+  - name: IMG_5654.jpg
+- id: gallery2
+  description: This is the 2 gallery
+  imagefolder: /images
+  images:
+  - name: IMG_4898.jpg
+  - name: IMG_5671.jpg

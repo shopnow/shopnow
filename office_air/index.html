@@ -1,0 +1,21 @@
+---
+layout: default
+title: "OFFICE AIR"
+
+---
+
+<ul class="post-list">
+  {% for post in site.categories.office_air %}
+    <li>
+      {% if post.img %}
+        <ul class="gallery {{post.categories}}">
+        {% for img in post.img %}
+          <li>
+              <img src="{{site.baseurl}}{{page.url}}images/{{img.src}}"/>
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

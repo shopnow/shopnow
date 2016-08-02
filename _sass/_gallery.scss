@@ -35,10 +35,11 @@ ul.gallery {
       display: none;
     }
     ul.gallery {
-      margin: 32px 0 96px 0;
-          @include media-query($on-palm) {
-      margin: 0 0 32px 0;
-    } 
+      // margin: 32px 0 96px 0;
+      margin: 32px 0;
+      @include media-query($on-palm) {
+        margin: 0 0 32px 0;
+      } 
     }
   }
   ul.gallery {

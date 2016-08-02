@@ -27,7 +27,6 @@ body {
 
 body.still_lyfe {
   background: url(/still_lyfe/images/space-bg.gif);
-
 }
 
 
@@ -165,7 +164,9 @@ pre {
     margin: 0 auto;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-desktop) {
+      max-width: 75%;
+
     }
 }
 

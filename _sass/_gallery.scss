@@ -1,7 +1,6 @@
 .header {
   text-align: center;
   margin: 32px auto;
-  max-width: 500px;
   // max-width: 100%;
   @include media-query($on-palm) {
     margin: 0 0 16px 0;
